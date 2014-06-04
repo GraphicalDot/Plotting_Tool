@@ -1,0 +1,95 @@
+<menubar>
+	<menu>
+		<menuName name="&File Menu" help="File menu"></menuName> 
+		<menuItem>
+			<itemName name= "&New Tab Ctrl-N" handler="Evt_New_Tab" help="Open menu item"></itemName>
+		</menuItem>
+		<menuItem>
+			<itemName name= "&Save plot Ctrl-S" handler="Evt_Save" help="Save plot to a file"></itemName>
+		</menuItem>	
+		<separator/>
+		
+		<menuItem>
+			<itemName name= "&Close"  handler="Evt_Close" help="Close menu item"></itemName>
+		</menuItem>
+		
+		<menuItem>
+			<itemName name= "&Change Base Axis"  handler="Evt_Change_Base_Axis" help="Change base axis"></itemName>
+		</menuItem>
+	</menu>
+	
+	<menu>
+		<menuName name="&Animate" help="Do the animation for the plot"></menuName>
+		<menuItem>
+			<itemName name= "&animation" handler="Evt_Animate" help="Others menu items 1" kind="check"></itemName>
+		</menuItem>
+	</menu>
+	
+	<menu>
+		<menuName name="&Plot" help="All the plotting"></menuName>
+		<menuItem>
+			<itemName name= "&Hexbin" handler="Evt_Hexbin"></itemName>
+		</menuItem>
+		<menuItem>
+			<itemName name= "&Breakplot" handler="Evt_Break_Plot"></itemName>
+		</menuItem>
+		<menuItem>
+			<itemName name= "&On Same X" handler="Evt_Same_XAxis"></itemName>
+		</menuItem>
+		<menuItem>
+			<itemName name= "&BootStrap Plot" handler="Evt_Bootstrap_Plot"></itemName>
+		</menuItem>
+
+	</menu>
+	<menu>
+		<menuName name="&MultiDimensional" help="MultiDimensional plotting"></menuName>
+	
+		<menuItem>
+			<itemName name= "&Parellel" handler="Evt_Multi_D_Parellel_Plot"></itemName>
+		</menuItem>
+		<menuItem>
+			<itemName name= "&Radviz" handler="Evt_Multi_D_Radviz_Plot"></itemName>
+		</menuItem>
+		<menuItem>
+			<itemName name= "&Andrew" handler="Evt_Multi_D_Andrew_Plot"></itemName>
+		</menuItem>
+		<menuItem>
+			<itemName name= "&Radar" handler="Evt_Multi_D_Radar_Plot"></itemName>
+		</menuItem>
+	
+	</menu>
+	
+	<menu>
+		<menuName name="&Choose Dataset"></menuName>
+		<menuItem>
+			<itemName name= "&choose" handler="Evt_Open_File"></itemName>
+		</menuItem>
+	</menu>
+	
+	<menu>
+		<menuName name="&Attributes" help="Choose attributes of the plot"></menuName>
+		<menuItem>
+			<itemName name= "&Dot Size" handler="Evt_Dot_Size" kind="check"></itemName>
+		</menuItem>
+		<menuItem>
+			<itemName name= "&Dot Color" handler="Evt_Dot_Color" kind="check"></itemName>
+		</menuItem>
+		<menuItem>
+			<itemName name= "&Data Size" handler="Evt_Data_Size" kind="check"></itemName>
+		</menuItem>
+		<menuItem>
+			<itemName name= "&Scatter" handler="Evt_Scatter_Plot" kind="check"></itemName>
+		</menuItem>
+		<menuItem>
+			<itemName name= "&Line Plot" handler="Evt_Line_Plot" kind="check"></itemName>
+		</menuItem>
+		<menuItem>
+			<itemName name= "&Auto rotate" handler="Evt_Auto_Rotate_ThreeD_Plot" kind="check"></itemName>
+		</menuItem>
+		<menuItem>
+			<itemName name= "&Axis Remove" handler="Evt_Remove_Axis_3d_Plots" kind="check"></itemName>
+		</menuItem>
+	</menu>
+
+</menubar>
+
